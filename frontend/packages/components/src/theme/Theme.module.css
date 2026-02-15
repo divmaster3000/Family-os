@@ -1,0 +1,86 @@
+body {
+    /* black */
+    --color-black-900: #000000;
+    --color-black-800: #1a1a1a;
+    --color-black-700: #333333;
+    --color-black-600: #4d4d4d;
+    --color-black-500: #666666;
+    --color-black-400: #808080;
+    --color-black-300: #999999;
+    --color-black-200: #b2b2b2;
+    --color-black-100: #cccccc;
+    --color-black-50: #e5e5e5;
+
+    /* primary */
+    --color-primary-900: #212967;
+    --color-primary-800: #2B3587;
+    --color-primary-700: #3745AF;
+    --color-primary-600: #4758E0;
+    --color-primary-500: #4E61F6;
+    --color-primary-400: #7181F8;
+    --color-primary-300: #8895F9;
+    --color-primary-200: #AEB6FB;
+    --color-primary-100: #C8CEFC;
+    --color-primary-50: #EDEFFE;
+
+    /* grey */
+    --color-grey-900: #131927;
+    --color-grey-800: #212936;
+    --color-grey-700: #394050;
+    --color-grey-600: #4D5461;
+    --color-grey-500: #6D717F;
+    --color-grey-400: #9EA2AE;
+    --color-grey-300: #D2D5DB;
+    --color-grey-200: #E5E7EA;
+    --color-grey-100: #F3F4F6;
+    --color-grey-50: #F9FAFB;
+
+    /* success */
+    --color-success-900: #1C4D27;
+    --color-success-800: #256533;
+    --color-success-700: #308242;
+    --color-success-600: #3DA755;
+    --color-success-500: #43B75D;
+    --color-success-400: #69C57D;
+    --color-success-300: #81CF92;
+    --color-success-200: #A9DEB4;
+    --color-success-100: #C5E9CD;
+    --color-success-50: #ECF8EF;
+
+    /* danger */
+    --color-danger-900: #641D1A;
+    --color-danger-800: #832523;
+    --color-danger-700: #A9302D;
+    --color-danger-600: #D93E39;
+    --color-danger-500: #EE443F;
+    --color-danger-400: #F16965;
+    --color-danger-300: #F4827E;
+    --color-danger-200: #F7A9A7;
+    --color-danger-100: #FAC5C3;
+    --color-danger-50: #FDECEC;
+
+    /* warning */
+    --color-warning-900: #6B4700;
+    --color-warning-800: #8C5E00;
+    --color-warning-700: #B57900;
+    --color-warning-600: #E89B00;
+    --color-warning-500: #FFAA00;
+    --color-warning-400: #FFBB33;
+    --color-warning-300: #FFC654;
+    --color-warning-200: #FFD88A;
+    --color-warning-100: #FFE5B0;
+    --color-warning-50: #FFF7E6;
+
+    /* info */
+    --color-info-900: #003F6B;
+    --color-info-800: #00528C;
+    --color-info-700: #006AB5;
+    --color-info-600: #0088E8;
+    --color-info-500: #0095FF;
+    --color-info-400: #33AAFF;
+    --color-info-300: #54B8FF;
+    --color-info-200: #8ACEFF;
+    --color-info-100: #B0DEFF;
+    --color-info-50: #E6F4FF;
+
+}
