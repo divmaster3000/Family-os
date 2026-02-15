@@ -31,34 +31,79 @@
     border-radius: 8px;
   }
 
-  &.disabled {
-    pointer-events: none;
-    cursor: not-allowed;
-    background-color: var(--color-grey-200);
-    color: var(--color-grey-400)
-  }
-
   &.primary {
 
     &.filled {
       background-color: var(--color-primary-500);
       border-color: var(--color-primary-500);
+
+      &:hover {
+        background-color: var(--color-primary-700);
+        border-color: var(--color-primary-700);
+      }
+
+      &:focus {
+        background-color: var(--color-primary-500);
+        border-color: var(--color-primary-200);
+        border-width: 3px;
+      }
+
+      &:active {
+        background-color: var(--color-primary-800);
+        border-color: var(--color-primary-800);
+      }
+
+      &.disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+        background-color: var(--color-grey-200);
+        color: var(--color-grey-400)
+      }
     }
 
-    &:hover {
-      background-color: var(--color-primary-700);
-      border-color: var(--color-primary-700);
-    }
-
-    &:focus {
-      background-color: var(--color-primary-500);
+    &.outline {
+      background-color: none;
       border-color: var(--color-primary-500);
+      color: var(--color-primary-500);
+
+      &:hover {
+        background-color: var(--color-primary-50);
+      }
+
+      &:active {
+        background-color: var(--color-primary-100);
+      }
+
+      &.disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+        background-color: var(--color-grey-200);
+        border-color: var(--color-grey-200);
+        color: var(--color-grey-400)
+      }
     }
 
-    &:active {
-      background-color: var(--color-primary-800);
-      border-color: var(--color-primary-800);
+    &.ghost {
+      background-color: none;
+      border: none;
+
+      &:hover {
+        background-color: var(--color-primary-50);
+      }
+
+      &:active {
+        background-color: var(--color-primary-50);
+      }
+
+      &.disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+        background-color: none;
+        border-color: var(--color-grey-200);
+        color: var(--color-grey-400)
+      }
     }
+
   }
 
   &.success {
