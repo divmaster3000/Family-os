@@ -8,10 +8,10 @@ export default [
   ...tseslint.configs.recommendedTypeChecked,
   {
     files: ["**/*.{ts,tsx,cts,mts}"],
-    rules: { 
+    rules: {
       'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       'eqeqeq': 'error',
-      'no-console': ['warn', { allow: ['error', 'warn', 'info'] }], 
+      'no-console': ['warn', { allow: ['error', 'warn', 'info'] }],
       'prefer-const': 'error',
     },
     languageOptions: {
@@ -35,14 +35,14 @@ export default [
               'position': 'before'
             },
             {
-              'pattern': '@/**', 
+              'pattern': '@/**',
               'group': 'internal'
             }
           ],
           'pathGroupsExcludedImportTypes': ['react'],
-          'newlines-between': 'always', 
+          'newlines-between': 'always',
           'alphabetize': {
-            'order': 'asc', 
+            'order': 'asc',
             'caseInsensitive': true
           }
         }
