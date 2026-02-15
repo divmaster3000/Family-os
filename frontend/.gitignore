@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules
+
+# Build artifacts
+/dist
+/build
+/out
+
+# Temporary files and logs
+/temp
+npm-debug.log
+.eslintcache
+
+# Optional: OS and editor files
+.DS_Store
+.idea
+.vscode
