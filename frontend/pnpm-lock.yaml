@@ -20,6 +20,9 @@ importers:
       '@eslint/js':
         specifier: ^9.39.1
         version: 9.39.2
+      '@packages/components':
+        specifier: workspace:*
+        version: link:../../packages/components
       '@types/node':
         specifier: ^24.10.1
         version: 24.10.13

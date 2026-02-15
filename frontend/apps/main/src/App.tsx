@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Button } from "@packages/components"
 
 function App() {
  
@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       Family OS
+      <Button title="Log In" />
     </>
   )
 }
