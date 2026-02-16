@@ -130,3 +130,29 @@
   }
 }
 
+.button_content {
+  display: flex;
+  flex-direction: row;
+  gap:4px;
+  align-items: center;
+  justify-content: center;
+
+  &.primary {
+    &.filled {
+
+      & svg {
+        stroke: white;
+      }
+
+      &.tiny {
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+
+
+
+}
