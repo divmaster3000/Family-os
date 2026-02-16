@@ -1,5 +1,25 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": ["apps/**/*.{ts,tsx}", "packages/**/*.{ts,tsx}"],
-  "exclude": ["node_modules", "dist", "build", ".turbo"]
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "apps/**/*.cts",
+    "apps/**/*.mts",
+    "apps/**/*.d.ts",
+
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.cts",
+    "packages/**/*.mts",
+    "packages/**/*.d.ts",
+
+    "scripts/**/*.ts",
+    "scripts/**/*.cts",
+    "scripts/**/*.mts",
+
+    "*.config.ts",
+    "*.config.mts",
+    "*.config.cts"
+  ],
+  "exclude": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.turbo/**"]
 }

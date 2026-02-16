@@ -1,14 +1,12 @@
+import type { Meta, StoryObj } from '@storybook/react-vite'
+import { Mail } from 'lucide-react'
+import { fn } from 'storybook/test'
 
-import type { Meta, StoryObj } from '@storybook/react-vite';
-import { Mail } from 'lucide-react';
-
-import { fn } from 'storybook/test';
-
-import { Button } from "./index";
+import { Button } from './index'
 
 export const ActionsData = {
   onClick: fn(),
-};
+}
 
 const meta = {
   component: Button,
@@ -18,50 +16,49 @@ const meta = {
   args: {
     ...ActionsData,
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Button>
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+export default meta
+type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    title: "Default",
-    size: "large",
-    type: "button",
-    variant: "filled",
-    palette: "primary"
-  }
-};
+    title: 'Default',
+    size: 'large',
+    type: 'button',
+    variant: 'filled',
+    palette: 'primary',
+  },
+}
 
 export const ButtonWithLeftIcon: Story = {
   args: {
-    title: "Default",
-    size: "large",
-    type: "button",
-    variant: "filled",
-    palette: "primary",
-    leftIcon: <Mail/>
-  }
-};
+    title: 'Default',
+    size: 'large',
+    type: 'button',
+    variant: 'filled',
+    palette: 'primary',
+    leftIcon: <Mail />,
+  },
+}
 
 export const ButtonWithRightIcon: Story = {
   args: {
-    title: "Default",
-    size: "large",
-    type: "button",
-    variant: "filled",
-    palette: "primary",
-    rightIcon: <Mail />
-  }
-};
-
+    title: 'Default',
+    size: 'large',
+    type: 'button',
+    variant: 'filled',
+    palette: 'primary',
+    rightIcon: <Mail />,
+  },
+}
 
 export const IconButton: Story = {
   args: {
-    size: "large",
-    type: "button",
-    variant: "filled",
-    palette: "primary",
-    rightIcon: <Mail />
-  }
-};
+    size: 'large',
+    type: 'button',
+    variant: 'filled',
+    palette: 'primary',
+    rightIcon: <Mail />,
+  },
+}
