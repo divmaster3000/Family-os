@@ -27,6 +27,7 @@ export const Button = ({
   palette = 'primary',
   leftIcon: LeftIcon,
   rightIcon: RightIcon,
+  onClick,
 }: ButtonProps) => {
   return (
     <button
@@ -34,6 +35,8 @@ export const Button = ({
       className={clsx(styles.button, styles[size], styles[variant], styles[palette], {
         [styles.disabled]: isDisabled,
       })}
+      disabled={isDisabled}
+      onClick={onClick}
     >
       <div className={clsx(styles.button_content, styles[size], styles[variant], styles[palette])}>
         {LeftIcon && <div>{LeftIcon}</div>}

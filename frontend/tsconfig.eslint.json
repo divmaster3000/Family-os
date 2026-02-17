@@ -19,7 +19,12 @@
 
     "*.config.ts",
     "*.config.mts",
-    "*.config.cts"
+    "*.config.cts",
+    "jest.setup.ts",
+    "jest.config.ts",
+
+    "**/*.spec.{ts,tsx}",
+    "**/*.test.{ts,tsx}",
   ],
-  "exclude": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.turbo/**"]
+  "exclude": ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.turbo/**", ]
 }
