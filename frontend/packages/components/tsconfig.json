@@ -5,7 +5,7 @@
     "emitDeclarationOnly": false,
     "outDir": "dist",
      "jsx": "react-jsx",
-    "types": ["react", "react-dom"]
+    "types": ["react", "react-dom", "jest", "@testing-library/jest-dom"]
   },
   "include": ["src", "./typings.d.ts"]
 }
